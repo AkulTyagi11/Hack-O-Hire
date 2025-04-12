@@ -40,7 +40,7 @@ function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/">
-              <img className="h-14" src="/images/cronos-logo-favicon.png" alt="cronos-logo"></img>
+              <img className="h-14" src="images/cronos-logo-favicon.png" alt="logo"></img>
             </Link>
             <Link to="/" className="font-bold text-xl text-blue-800">Cronos</Link>
           </div>
@@ -967,7 +967,7 @@ function About() {
 
           <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
             <div className="flex-shrink-0">
-              <img className="h-fit w-fit object-cover" src="/images/Photo.png" alt="Team member" />
+              <img className="h-fit w-fit object-cover" src="images/Photo.png" alt="Team member" />
             </div>
             <div className="flex-1 bg-white p-6 flex flex-col justify-between">
               <div className="flex-1">
