@@ -40,12 +40,13 @@ function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/">
-            <img className="h-14" src="/images/cronos-logo.png" alt="cronos-logo"></img>
+              <img className="h-14" src="/images/cronos-logo.png" alt="cronos-logo"></img>
             </Link>
             <Link to="/" className="font-bold text-xl text-blue-800">Cronos</Link>
           </div>
           <div className="flex">
-            <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+            {/* Remove the "hidden" class to make links visible */}
+            <div className="sm:ml-6 flex sm:space-x-8">
               <Link to="/" className={`${isActive('/') ? 'border-blue-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'} inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium`}>
                 Home
               </Link>
