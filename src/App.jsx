@@ -40,12 +40,12 @@ function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/">
-              <img className="h-14" src="/images/cronos-logo.png" alt="cronos-logo"></img>
+              <img className="h-14" src="/images/cronos-logo-favicon.png" alt="cronos-logo"></img>
             </Link>
             <Link to="/" className="font-bold text-xl text-blue-800">Cronos</Link>
           </div>
           <div className="flex">
-            {/* Remove the "hidden" class to make links visible */}
+            {}
             <div className="sm:ml-6 flex sm:space-x-8">
               <Link to="/" className={`${isActive('/') ? 'border-blue-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'} inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium`}>
                 Home
@@ -1004,20 +1004,6 @@ function About() {
                 <p className="mt-1 text-base text-gray-500">BackEnd Developer</p>
                 <p className="mt-3 text-base text-gray-500">
                 Our expert in Backend Development, building robust architectures and seamless integrations to power our application efficiently.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-            <div className="flex-shrink-0">
-              <img className="h-48 w-full object-cover" src="/api/placeholder/400/320" alt="Team member" />
-            </div>
-            <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-              <div className="flex-1">
-                <p className="text-xl font-semibold text-gray-900">Soumya Singh</p>
-                <p className="mt-1 text-base text-gray-500"></p>
-                <p className="mt-3 text-base text-gray-500">
-                Who’s helping out across different areas of the project wherever needed.
                 </p>
               </div>
             </div>
